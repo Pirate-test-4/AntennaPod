@@ -69,3 +69,9 @@ project.ext {
 task wrapper(type: Wrapper) {
     gradleVersion = "2.11"
 }
+
+android {
+      lintOptions {
+          abortOnError false
+      }
+  }
